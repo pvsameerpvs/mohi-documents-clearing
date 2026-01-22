@@ -11,6 +11,7 @@ import {
   MapPin,
   Phone
 } from "lucide-react";
+import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -115,10 +116,10 @@ export function IntroSection() {
 
             <div className="mt-12 flex flex-col sm:flex-row items-center gap-6 border-t border-charcoal/10 pt-10">
               <Button asChild size="lg" className="h-14 px-8 rounded-2xl bg-brand-red hover:bg-red-700 shadow-lg shadow-brand-red/20 text-md font-bold group">
-                <a href="tel:+971563315670">
+                <Link href="/contact">
                   Contact Specialist
                   <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
-                </a>
+                </Link>
               </Button>
               
               <div className="flex -space-x-4">
