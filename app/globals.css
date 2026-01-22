@@ -48,3 +48,12 @@ h1, h2, h3, h4, h5, h6 {
 ::selection {
   background: rgba(244, 208, 0, 0.35);
 }
+
+@keyframes bounce-subtle {
+  0%, 100% { transform: translateY(0) rotate(-2deg); }
+  50% { transform: translateY(-10px) rotate(2deg); }
+}
+
+.animate-bounce-subtle {
+  animation: bounce-subtle 3s ease-in-out infinite;
+}
