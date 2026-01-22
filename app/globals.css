@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 0 0% 7%;
+
+  --card: 0 0% 100%;
+  --card-foreground: 0 0% 7%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 0 0% 7%;
+
+  /* Primary is our brand Yellow */
+  --primary: 51 100% 48%;
+  --primary-foreground: 0 0% 7%;
+
+  /* Secondary is brand Red */
+  --secondary: 357 82% 42%;
+  --secondary-foreground: 0 0% 100%;
+
+  --muted: 210 20% 96%;
+  --muted-foreground: 0 0% 45%;
+
+  --border: 0 0% 90%;
+  --input: 0 0% 90%;
+  --ring: 51 100% 48%;
+
+  --radius: 1.25rem;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  @apply bg-white text-charcoal antialiased;
+}
+
+::selection {
+  background: rgba(244, 208, 0, 0.35);
+}
