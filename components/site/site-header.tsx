@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, PhoneCall, X } from "lucide-react";
+import { WhatsAppIcon } from "@/components/icons/whatsapp-icon";
 
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
@@ -100,8 +101,9 @@ export function SiteHeader() {
                       Call: +971 56 331 5670
                     </a>
                   </Button>
-                  <Button asChild variant="outline" className="w-full" onClick={() => setOpen(false)}>
-                    <a href="https://wa.me/971563315670" target="_blank" rel="noopener noreferrer">
+                  <Button asChild variant="outline" className="w-full h-12 rounded-xl group hover:bg-[#25D366] hover:text-white hover:border-[#25D366] transition-all" onClick={() => setOpen(false)}>
+                    <a href="https://wa.me/971563315670" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2">
+                      <WhatsAppIcon className="h-5 w-5 text-[#25D366] group-hover:text-white transition-colors" />
                       WhatsApp
                     </a>
                   </Button>

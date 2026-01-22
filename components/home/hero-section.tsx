@@ -5,7 +5,6 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { 
   PhoneCall, 
-  MessageCircle, 
   Mail, 
   CheckCircle2, 
   Clock, 
@@ -14,6 +13,7 @@ import {
   ArrowRight,
   Sparkles
 } from "lucide-react";
+import { WhatsAppIcon } from "@/components/icons/whatsapp-icon";
 
 export function HeroSection() {
   const [isVisible, setIsVisible] = useState(false);
@@ -100,10 +100,10 @@ export function HeroSection() {
                 asChild 
                 size="lg" 
                 variant="outline" 
-                className="border-2 border-white/40 bg-white/10 backdrop-blur-sm text-white hover:bg-white hover:text-brand-red shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+                className="border-2 border-white/40 bg-white/10 backdrop-blur-sm text-white hover:bg-[#25D366] hover:border-[#25D366] shadow-lg hover:shadow-[#25D366]/20 transition-all duration-300 hover:scale-105 group"
               >
                 <a href="https://wa.me/971563315670" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp +971 56 331 5670">
-                  <MessageCircle className="mr-2 h-5 w-5" />
+                  <WhatsAppIcon className="mr-2 h-5 w-5" />
                   WhatsApp
                 </a>
               </Button>

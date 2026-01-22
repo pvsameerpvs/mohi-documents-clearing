@@ -1,8 +1,7 @@
 "use client";
 
-import { MessageCircle } from "lucide-react";
-
 import { cn } from "@/lib/utils";
+import { WhatsAppIcon } from "@/components/icons/whatsapp-icon";
 
 export function WhatsAppFab({ className }: { className?: string }) {
   return (
@@ -12,11 +11,14 @@ export function WhatsAppFab({ className }: { className?: string }) {
       rel="noopener noreferrer"
       aria-label="WhatsApp: +971 56 331 5670"
       className={cn(
-        "fixed bottom-5 right-5 z-50 inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-brand-red text-white shadow-soft transition-transform hover:scale-[1.03] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-yellow focus-visible:ring-offset-2",
+        "fixed bottom-6 right-6 z-50 inline-flex h-16 w-16 items-center justify-center rounded-full bg-[#25D366] text-white shadow-2xl transition-all duration-300 hover:scale-110 hover:shadow-[#25D366]/40 group",
         className
       )}
     >
-      <MessageCircle className="h-6 w-6" />
+      {/* Pulse Effect */}
+      <span className="absolute inset-0 rounded-full bg-[#25D366] animate-ping opacity-20 group-hover:opacity-0" />
+      
+      <WhatsAppIcon className="h-9 w-9" />
     </a>
   );
 }

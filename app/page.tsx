@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 
-import { HeroSection } from "@/components/home/hero-section";
-import { IntroSection } from "@/components/home/intro-section";
-import { HighlightsSection } from "@/components/home/highlights-section";
-import { WhyChooseUsSection } from "@/components/home/why-choose-us-section";
-import { ServiceSupportStrip } from "@/components/home/service-support-strip";
+import { 
+  HeroSection, 
+  IntroSection, 
+  HighlightsSection, 
+  WhyChooseUsSection, 
+  ServiceSupportStrip 
+} from "@/components/home";
 
 export const metadata: Metadata = {
   title: "Home",

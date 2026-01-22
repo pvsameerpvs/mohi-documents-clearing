@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import { 
   PhoneCall, 
   Mail, 
@@ -12,7 +11,9 @@ import {
   ShieldCheck,
   MessageCircle
 } from "lucide-react";
+import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
+import { WhatsAppIcon } from "@/components/icons/whatsapp-icon";
 
 const footerLinks = {
   services: [
@@ -43,27 +44,33 @@ export function SiteFooter() {
           
           {/* Column 1: Brand & About */}
           <div className="space-y-6">
-            <Link href="/" className="inline-block group">
-              <div className="flex items-center gap-3">
-                <div className="h-10 w-10 flex items-center justify-center rounded-xl bg-brand-red shadow-lg shadow-brand-red/20 transition-transform group-hover:scale-110">
-                  <ShieldCheck className="text-white h-6 w-6" />
-                </div>
-                <span className="text-lg font-black tracking-tight leading-none italic uppercase">
-                  MOHI <span className="text-brand-red italic block text-[10px] tracking-[0.2em] font-black mt-1 not-italic opacity-80 uppercase leading-none">Documents Clearing</span>
-                </span>
-              </div>
+            <Link href="/" className="">
+              <Image 
+                src="/logo.png" 
+                alt="Logo" 
+                width={150} 
+                height={40} 
+                className="h-auto w-32 md:w-40 " 
+              />
             </Link>
             <p className="text-white/60 text-sm leading-relaxed max-w-[280px] font-normal">
               Premium document clearing and government liaison services in Dubai. We simplify your legal journeys with precision and speed.
             </p>
             <div className="flex items-center gap-4">
-              {[Facebook, Instagram, Linkedin, MessageCircle].map((Icon, i) => (
+              {[
+                { Icon: Facebook, href: "#" },
+                { Icon: Instagram, href: "#" },
+                { Icon: Linkedin, href: "#" },
+                { Icon: WhatsAppIcon, href: "https://wa.me/971563315670" },
+              ].map((item, i) => (
                 <a 
                   key={i} 
-                  href="#" 
+                  href={item.href} 
+                  target={item.Icon === WhatsAppIcon ? "_blank" : undefined}
+                  rel={item.Icon === WhatsAppIcon ? "noopener noreferrer" : undefined}
                   className="h-10 w-10 flex items-center justify-center rounded-xl bg-white/5 border border-white/10 text-white/60 hover:bg-brand-red hover:text-white hover:border-brand-red hover:scale-110 transition-all"
                 >
-                  <Icon className="h-4 w-4" />
+                  <item.Icon className="h-4 w-4" />
                 </a>
               ))}
             </div>
@@ -150,21 +157,7 @@ export function SiteFooter() {
 
         </div>
 
-        <Separator className="mt-20 mb-10 bg-white/10" />
-
-        <div className="flex flex-col md:flex-row justify-between items-center gap-6">
-          <p className="text-xs text-white/40 font-medium">
-            © {new Date().getFullYear()} <span className="text-white/60">Mohammad Mohi Uddin Karim</span>. All rights reserved.
-          </p>
-          <div className="flex items-center gap-2 grayscale opacity-50 contrast-125">
-             {/* Payment/Logo badges could go here if needed */}
-             <span className="text-[10px] text-white/30 font-black uppercase tracking-[0.2em]">Quality Since 2012</span>
-          </div>
-          <div className="flex items-center gap-6">
-            <Link href="/privacy" className="text-xs text-white/40 hover:text-white transition-colors">Privacy Policy</Link>
-            <Link href="/terms" className="text-xs text-white/40 hover:text-white transition-colors">Terms of Service</Link>
-          </div>
-        </div>
+       
       </div>
     </footer>
   );

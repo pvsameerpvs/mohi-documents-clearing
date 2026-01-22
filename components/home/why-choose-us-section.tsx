@@ -17,6 +17,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
+import { WhatsAppIcon } from "@/components/icons/whatsapp-icon";
 
 const reasons = [
   {
@@ -138,9 +139,9 @@ export function WhyChooseUsSection() {
 
                   {/* WhatsApp & Email */}
                   <div className="grid gap-4 sm:grid-cols-2">
-                    <a href="https://wa.me/971563315670" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 rounded-3xl bg-emerald-500/5 p-4 transition-all hover:bg-emerald-500 hover:text-white group">
-                      <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-white text-emerald-500 shadow-sm group-hover:bg-white/20 group-hover:text-white">
-                        <MessageCircle className="h-5 w-5" />
+                    <a href="https://wa.me/971563315670" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 rounded-3xl bg-emerald-500/5 p-4 transition-all hover:bg-[#25D366] hover:text-white group">
+                      <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-white text-[#25D366] shadow-sm group-hover:bg-white/20 group-hover:text-white">
+                        <WhatsAppIcon className="h-5 w-5" />
                       </div>
                       <span className="text-xs font-black">WhatsApp Now</span>
                     </a>
