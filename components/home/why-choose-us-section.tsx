@@ -116,7 +116,7 @@ export function WhyChooseUsSection() {
                     <div>
                       <p className="text-[10px] font-black uppercase tracking-widest text-charcoal/30">Our Office</p>
                       <p className="text-sm font-bold text-charcoal leading-tight mt-1">
-                        Hor Al Anz Near Salah Bilal Studio, Deira, Dubai – UAE
+                        Dubai Deira hor al anz near salal bilal studio 30A Street,shop no 1
                       </p>
                     </div>
                   </div>
@@ -129,11 +129,11 @@ export function WhyChooseUsSection() {
                       </div>
                       <span className="text-xs font-black truncate">+971 56 331 5670</span>
                     </a>
-                    <a href="tel:+97142279566" className="flex items-center gap-4 rounded-3xl bg-amber-500/5 p-4 transition-all hover:bg-amber-500 hover:text-white group">
+                    <a href="tel:+97143495163" className="flex items-center gap-4 rounded-3xl bg-amber-500/5 p-4 transition-all hover:bg-amber-500 hover:text-white group">
                       <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-white text-amber-500 shadow-sm group-hover:bg-white/20 group-hover:text-white">
                         <Phone className="h-5 w-5" />
                       </div>
-                      <span className="text-xs font-black truncate">+971 4 227 9566</span>
+                      <span className="text-xs font-black truncate">04 349 5163</span>
                     </a>
                   </div>
 

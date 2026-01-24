@@ -95,12 +95,20 @@ export function SiteHeader() {
                   })}
                 </nav>
                 <div className="mt-6 space-y-3 border-t border-charcoal/10 pt-6">
-                  <Button asChild variant="red" className="w-full" onClick={() => setOpen(false)}>
-                    <a href="tel:+971563315670">
-                      <PhoneCall className="mr-2 h-4 w-4" />
-                      Call: +971 56 331 5670
-                    </a>
-                  </Button>
+                  <div className="grid gap-2">
+                    <Button asChild variant="red" className="w-full h-11" onClick={() => setOpen(false)}>
+                      <a href="tel:+971563315670">
+                        <PhoneCall className="mr-2 h-4 w-4" />
+                        Call: +971 56 331 5670
+                      </a>
+                    </Button>
+                    <Button asChild variant="outline" className="w-full h-11 border-charcoal/20" onClick={() => setOpen(false)}>
+                      <a href="tel:+97143495163">
+                        <PhoneCall className="mr-2 h-4 w-4" />
+                        Call: 04 349 5163
+                      </a>
+                    </Button>
+                  </div>
                   <Button asChild variant="outline" className="w-full h-12 rounded-xl group hover:bg-[#25D366] hover:text-white hover:border-[#25D366] transition-all" onClick={() => setOpen(false)}>
                     <a href="https://wa.me/971563315670" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2">
                       <WhatsAppIcon className="h-5 w-5 text-[#25D366] group-hover:text-white transition-colors" />

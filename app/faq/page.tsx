@@ -45,7 +45,7 @@ const faqs = [
   },
   {
     q: "Where is your office located in Dubai?",
-    a: "Our main service center is located at Hor Al Anz, Near Salah Bilal Studio, Deira, Dubai – UAE. We are centrally located for easy access and document handling.",
+    a: "Our main service center is located at Dubai Deira hor al anz near salal bilal studio 30A Street, shop no 1 – UAE. We are centrally located for easy access and document handling.",
   },
   {
     q: "How can I get an urgent document processed?",

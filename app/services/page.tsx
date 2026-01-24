@@ -258,12 +258,20 @@ export default function ServicesPage() {
                 Speak directly with one of our PRO specialists. We'll provide a free consultation and clear roadmap for your requirements.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-                <Button asChild size="lg" className="h-16 px-10 rounded-2xl bg-white text-brand-red hover:bg-charcoal hover:text-white shadow-xl text-md font-black group transition-all duration-300">
-                  <a href="tel:+971563315670">
-                    Call: +971 56 331 5670
-                    <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
-                  </a>
-                </Button>
+                <div className="flex flex-col gap-3">
+                  <Button asChild size="lg" className="h-16 px-10 rounded-2xl bg-white text-brand-red hover:bg-charcoal hover:text-white shadow-xl text-md font-black group transition-all duration-300">
+                    <a href="tel:+971563315670">
+                      Mobile: +971 56 331 5670
+                      <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+                    </a>
+                  </Button>
+                  <Button asChild size="lg" className="h-16 px-10 rounded-2xl bg-white/90 text-charcoal hover:bg-white shadow-xl text-md font-black group transition-all duration-300">
+                    <a href="tel:+97143495163">
+                      Landline: 04 349 5163
+                      <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+                    </a>
+                  </Button>
+                </div>
                 <Button asChild variant="outline" size="lg" className="h-16 px-10 rounded-2xl border-2 border-white/40 bg-white/10 text-white hover:bg-white hover:text-brand-red shadow-lg text-md font-black group">
                   <Link href="/contact">
                     Contact Us

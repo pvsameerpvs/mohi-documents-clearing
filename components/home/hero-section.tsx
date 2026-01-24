@@ -112,11 +112,11 @@ export function HeroSection() {
             {/* Secondary Contact Options */}
             <div className="mt-6 flex flex-wrap gap-3">
               <a 
-                href="tel:+97142279566" 
+                href="tel:+97143495163" 
                 className="inline-flex items-center gap-2 text-sm text-white/90 hover:text-white transition-colors"
               >
                 <PhoneCall className="h-4 w-4" />
-                Office: +971 4 227 9566
+                Office: 04 349 5163
               </a>
               <span className="text-white/40">|</span>
               <a 

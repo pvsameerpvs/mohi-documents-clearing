@@ -126,7 +126,7 @@ export function SiteFooter() {
                 <div className="space-y-1">
                   <p className="text-[10px] font-black uppercase tracking-widest text-white/30">Location</p>
                   <p className="text-sm text-white/80 font-bold leading-tight">
-                    Hor Al Anz Near Salah Bilal Studio, Deira, Dubai – UAE
+                    Dubai Deira hor al anz near salal bilal studio 30A Street,shop no 1
                   </p>
                 </div>
               </li>
@@ -140,7 +140,21 @@ export function SiteFooter() {
                     <a href="tel:+971563315670" className="text-sm text-white/80 font-bold hover:text-white transition-colors">
                       +971 56 331 5670
                     </a>
+                    <a href="tel:+97143495163" className="text-sm text-white/80 font-bold hover:text-white transition-colors">
+                      04 349 5163
+                    </a>
                   </div>
+                </div>
+              </li>
+              <li className="flex items-start gap-4">
+                <div className="h-10 w-10 flex items-center justify-center rounded-xl bg-white/5 border border-white/10 text-brand-red shrink-0">
+                  <Mail className="h-5 w-5" />
+                </div>
+                <div className="space-y-1">
+                  <p className="text-[10px] font-black uppercase tracking-widest text-white/30">Email Address</p>
+                  <a href="mailto:mohi.luc@gmail.com" className="text-sm text-white/80 font-bold hover:text-white transition-colors">
+                    mohi.luc@gmail.com
+                  </a>
                 </div>
               </li>
               <li className="flex items-start gap-4">

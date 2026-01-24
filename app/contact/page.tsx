@@ -70,7 +70,6 @@ export default function ContactPage() {
                 </div>
 
                 <div className="grid gap-6">
-                    {/* Phone Numbers */}
                     <div className="group relative overflow-hidden rounded-[2rem] bg-white p-8 border border-charcoal/5 shadow-sm transition-all hover:shadow-xl">
                         <div className="flex items-start gap-6">
                             <div className="h-14 w-14 flex items-center justify-center rounded-2xl bg-brand-red/10 text-brand-red transition-transform group-hover:rotate-12">
@@ -78,9 +77,13 @@ export default function ContactPage() {
                             </div>
                             <div>
                                 <p className="text-[10px] font-black uppercase tracking-widest text-charcoal/30 mb-1">Primary Support</p>
-                                <h3 className="text-xl font-black text-charcoal">+971 56 331 5670</h3>
-                                <div className="mt-3 flex flex-wrap gap-2">
-                                    <a href="tel:+971563315670" className="px-4 py-2 rounded-xl bg-brand-red text-white text-xs font-bold hover:bg-red-700 transition-colors">Call Now</a>
+                                <div className="space-y-1">
+                                    <h3 className="text-xl font-black text-charcoal">+971 56 331 5670</h3>
+                                    <h3 className="text-xl font-black text-charcoal">04 349 5163</h3>
+                                </div>
+                                <div className="mt-4 flex flex-wrap gap-2">
+                                    <a href="tel:+971563315670" className="px-4 py-2 rounded-xl bg-brand-red text-white text-xs font-bold hover:bg-red-700 transition-colors">Call Mobile</a>
+                                    <a href="tel:+97143495163" className="px-4 py-2 rounded-xl bg-charcoal text-white text-xs font-bold hover:bg-black transition-colors">Call Landline</a>
                                     <a href="https://wa.me/971563315670" target="_blank" rel="noopener noreferrer" className="px-4 py-2 rounded-xl bg-emerald-500 text-white text-xs font-bold hover:bg-emerald-600 transition-all flex items-center gap-2">
                                         <WhatsAppIcon className="h-4 w-4" />
                                         WhatsApp
@@ -111,8 +114,8 @@ export default function ContactPage() {
                             <div>
                                 <p className="text-[10px] font-black uppercase tracking-widest text-charcoal/30 mb-1">Office Location</p>
                                 <h3 className="text-lg font-black text-charcoal leading-tight">
-                                    Hor Al Anz Near Salah Bilal Studio, <br />
-                                    Deira, Dubai – UAE
+                                    Dubai Deira hor al anz near salal bilal studio <br />
+                                    30A Street, shop no 1 – UAE
                                 </h3>
                             </div>
                         </div>
