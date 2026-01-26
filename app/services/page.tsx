@@ -258,10 +258,16 @@ export default function ServicesPage() {
                 Speak directly with one of our PRO specialists. We'll provide a free consultation and clear roadmap for your requirements.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-                <div className="flex flex-col gap-3">
+                <div className="flex flex-col gap-3 w-full sm:w-auto">
                   <Button asChild size="lg" className="h-16 px-10 rounded-2xl bg-white text-brand-red hover:bg-charcoal hover:text-white shadow-xl text-md font-black group transition-all duration-300">
                     <a href="tel:+971563315670">
                       Mobile: +971 56 331 5670
+                      <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+                    </a>
+                  </Button>
+                  <Button asChild size="lg" className="h-16 px-10 rounded-2xl bg-white text-brand-red hover:bg-charcoal hover:text-white shadow-xl text-md font-black group transition-all duration-300">
+                    <a href="tel:+971544432745">
+                      Mobile: +971 54 443 2745
                       <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
                     </a>
                   </Button>

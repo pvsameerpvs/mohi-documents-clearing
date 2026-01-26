@@ -140,6 +140,9 @@ export function SiteFooter() {
                     <a href="tel:+971563315670" className="text-sm text-white/80 font-bold hover:text-white transition-colors">
                       +971 56 331 5670
                     </a>
+                    <a href="tel:+971544432745" className="text-sm text-white/80 font-bold hover:text-white transition-colors">
+                      +971 54 443 2745
+                    </a>
                     <a href="tel:+97143495163" className="text-sm text-white/80 font-bold hover:text-white transition-colors">
                       04 349 5163
                     </a>

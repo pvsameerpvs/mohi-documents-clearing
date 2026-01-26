@@ -86,7 +86,7 @@ export function ContactForm() {
       </Button>
       
       <p className="text-[10px] text-center text-charcoal/40 font-bold uppercase tracking-widest">
-        Direct Support: +971 56 331 5670
+        Direct Support: +971 56 331 5670 / +971 54 443 2745
       </p>
     </form>
   );

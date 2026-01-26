@@ -102,6 +102,12 @@ export function SiteHeader() {
                         Call: +971 56 331 5670
                       </a>
                     </Button>
+                    <Button asChild variant="red" className="w-full h-11" onClick={() => setOpen(false)}>
+                      <a href="tel:+971544432745">
+                        <PhoneCall className="mr-2 h-4 w-4" />
+                        Call: +971 54 443 2745
+                      </a>
+                    </Button>
                     <Button asChild variant="outline" className="w-full h-11 border-charcoal/20" onClick={() => setOpen(false)}>
                       <a href="tel:+97143495163">
                         <PhoneCall className="mr-2 h-4 w-4" />

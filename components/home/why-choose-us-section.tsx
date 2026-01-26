@@ -122,18 +122,26 @@ export function WhyChooseUsSection() {
                   </div>
 
                   {/* Phone Numbers */}
-                  <div className="grid gap-4 sm:grid-cols-2">
-                    <a href="tel:+971563315670" className="flex items-center gap-4 rounded-3xl bg-brand-red/5 p-4 transition-all hover:bg-brand-red hover:text-white group">
-                      <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-white text-brand-red shadow-sm group-hover:bg-white/20 group-hover:text-white">
-                        <PhoneCall className="h-5 w-5" />
-                      </div>
-                      <span className="text-xs font-black truncate">+971 56 331 5670</span>
-                    </a>
+                  <div className="flex flex-col gap-3">
+                    <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-2">
+                       <a href="tel:+971563315670" className="flex items-center gap-4 rounded-3xl bg-brand-red/5 p-4 transition-all hover:bg-brand-red hover:text-white group">
+                         <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-white text-brand-red shadow-sm group-hover:bg-white/20 group-hover:text-white">
+                           <PhoneCall className="h-5 w-5" />
+                         </div>
+                         <span className="text-[10px] font-black truncate">+971 56 331 5670</span>
+                       </a>
+                       <a href="tel:+971544432745" className="flex items-center gap-4 rounded-3xl bg-brand-red/5 p-4 transition-all hover:bg-brand-red hover:text-white group">
+                         <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-white text-brand-red shadow-sm group-hover:bg-white/20 group-hover:text-white">
+                           <PhoneCall className="h-5 w-5" />
+                         </div>
+                         <span className="text-[10px] font-black truncate">+971 54 443 2745</span>
+                       </a>
+                    </div>
                     <a href="tel:+97143495163" className="flex items-center gap-4 rounded-3xl bg-amber-500/5 p-4 transition-all hover:bg-amber-500 hover:text-white group">
                       <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-white text-amber-500 shadow-sm group-hover:bg-white/20 group-hover:text-white">
                         <Phone className="h-5 w-5" />
                       </div>
-                      <span className="text-xs font-black truncate">04 349 5163</span>
+                      <span className="text-xs font-black truncate">Landline: 04 349 5163</span>
                     </a>
                   </div>
 

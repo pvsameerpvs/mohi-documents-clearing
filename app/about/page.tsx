@@ -12,7 +12,8 @@ import {
   Plus,
   BadgeCheck,
   Zap,
-  CheckCircle2
+  CheckCircle2,
+  PhoneCall
 } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
@@ -49,12 +50,14 @@ const management = [
   {
     name: "MOHI UDDIN",
     role: "Managing Director",
-    initials: "MU"
+    initials: "MU",
+    phone: "+971 56 331 5670"
   },
   {
     name: "SAHAB UDDIN",
     role: "Director of Operations",
-    initials: "SU"
+    initials: "SU",
+    phone: "+971 54 443 2745"
   }
 ];
 
@@ -214,13 +217,20 @@ export default function AboutPage() {
 
             <div className="grid gap-6">
               {management.map((person, i) => (
-                <div key={i} className="group flex items-center gap-6 p-8 rounded-[2.5rem] bg-charcoal/5 border border-charcoal/5 transition-all hover:bg-brand-red hover:scale-[1.02]">
-                  <div className="h-20 w-20 shrink-0 flex items-center justify-center rounded-2xl bg-white text-brand-red text-2xl font-black shadow-lg shadow-brand-red/10 group-hover:rotate-6 transition-transform">
+                <div key={i} className="group flex items-center gap-6 p-8 rounded-[2.5rem] bg-charcoal/5 border border-charcoal/5 transition-all hover:bg-white hover:shadow-2xl hover:scale-[1.02]">
+                  <div className="h-20 w-20 shrink-0 flex items-center justify-center rounded-2xl bg-brand-red text-white text-2xl font-black shadow-lg shadow-brand-red/10 group-hover:rotate-6 transition-transform">
                     {person.initials}
                   </div>
-                  <div>
-                    <h4 className="text-2xl font-black text-charcoal group-hover:text-white transition-colors">{person.name}</h4>
-                    <p className="text-charcoal/60 font-bold group-hover:text-white/80 transition-colors">{person.role}</p>
+                  <div className="flex-1">
+                    <h4 className="text-2xl font-black text-charcoal transition-colors">{person.name}</h4>
+                    <p className="text-charcoal/60 font-bold mb-3">{person.role}</p>
+                    <a 
+                      href={`tel:${person.phone.replace(/\s+/g, '')}`} 
+                      className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-charcoal text-white text-xs font-black hover:bg-brand-red transition-all"
+                    >
+                      <PhoneCall className="h-3.5 w-3.5" />
+                      {person.phone}
+                    </a>
                   </div>
                 </div>
               ))}

@@ -79,10 +79,12 @@ export default function ContactPage() {
                                 <p className="text-[10px] font-black uppercase tracking-widest text-charcoal/30 mb-1">Primary Support</p>
                                 <div className="space-y-1">
                                     <h3 className="text-xl font-black text-charcoal">+971 56 331 5670</h3>
+                                    <h3 className="text-xl font-black text-charcoal">+971 54 443 2745</h3>
                                     <h3 className="text-xl font-black text-charcoal">04 349 5163</h3>
                                 </div>
                                 <div className="mt-4 flex flex-wrap gap-2">
-                                    <a href="tel:+971563315670" className="px-4 py-2 rounded-xl bg-brand-red text-white text-xs font-bold hover:bg-red-700 transition-colors">Call Mobile</a>
+                                    <a href="tel:+971563315670" className="px-4 py-2 rounded-xl bg-brand-red text-white text-xs font-bold hover:bg-red-700 transition-colors">Call Mobile 1</a>
+                                    <a href="tel:+971544432745" className="px-4 py-2 rounded-xl bg-brand-red text-white text-xs font-bold hover:bg-red-700 transition-colors">Call Mobile 2</a>
                                     <a href="tel:+97143495163" className="px-4 py-2 rounded-xl bg-charcoal text-white text-xs font-bold hover:bg-black transition-colors">Call Landline</a>
                                     <a href="https://wa.me/971563315670" target="_blank" rel="noopener noreferrer" className="px-4 py-2 rounded-xl bg-emerald-500 text-white text-xs font-bold hover:bg-emerald-600 transition-all flex items-center gap-2">
                                         <WhatsAppIcon className="h-4 w-4" />
