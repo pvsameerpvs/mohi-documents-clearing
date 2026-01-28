@@ -16,6 +16,8 @@ import {
   Verified
 } from "lucide-react";
 import { WhatsAppIcon } from "@/components/icons/whatsapp-icon";
+import Typewriter from "typewriter-effect";
+
 
 const BACKGROUND_IMAGES = [
   "/hero-professional.png",
@@ -98,14 +100,31 @@ export function HeroSection() {
             {/* Main Heading */}
             <h1 className="text-3xl font-black leading-tight tracking-tight text-white md:text-5xl lg:text-7xl">
               MOHAMMAD <span className="text-brand-red">MOHI UDDIN</span> KARIM
-              <span className="block text-xl md:text-3xl lg:text-4xl mt-2 text-white/80 font-bold uppercase tracking-widest">
-                TYPING SERVICES
+              <span className="block text-xl md:text-3xl lg:text-4xl mt-2 text-white/80 font-bold uppercase tracking-widest min-h-[1.5em]">
+                <Typewriter
+                  options={{
+                    strings: [
+                      "TYPING SERVICES",
+                      "VISA SERVICES",
+                      "EMIRATES ID",
+                      "IMMIGRATION SERVICES",
+                      "PRO SERVICES",
+                      "TRADE LICENSE",
+                    ],
+                    autoStart: true,
+                    loop: true,
+                    deleteSpeed: 50,
+                    delay: 80,
+                    wrapperClassName: "text-brand-red",
+                    cursorClassName: "text-white/60 animate-pulse",
+                  }}
+                />
               </span>
             </h1>
 
             {/* Subheading */}
             <p className="mt-6 md:mt-8 text-base md:text-xl text-white/70 leading-relaxed max-w-xl mx-auto lg:mx-0">
-              Dubai's premier destination for fast, reliable document processing. We specialize in{" "}
+              Dubai&apos;s premier destination for fast, reliable document processing. We specialize in{" "}
               <span className="text-white font-semibold">Emirates ID, Visa Services, and Immigration</span>.
             </p>
 
