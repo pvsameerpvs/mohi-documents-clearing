@@ -58,9 +58,7 @@ export function SiteFooter() {
             </p>
             <div className="flex items-center gap-4">
               {[
-                { Icon: Facebook, href: "#" },
-                { Icon: Instagram, href: "#" },
-                { Icon: Linkedin, href: "#" },
+                { Icon: Facebook, href: "https://www.facebook.com/share/1AFuwXiUKr/?mibextid=wwXIfr" },
                 { Icon: WhatsAppIcon, href: "https://wa.me/971563315670" },
               ].map((item, i) => (
                 <a 
