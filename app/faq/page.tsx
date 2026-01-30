@@ -143,7 +143,7 @@ export default function FAQPage() {
                 Still Have <span className="text-brand-red italic uppercase">Questions?</span>
               </h2>
               <p className="text-white/60 text-lg mb-10 leading-relaxed font-normal">
-                If you didn't find the answer you were looking for, our expert team is ready to help you personally. Reach out to us via any of the channels below.
+                If you didn&apos;t find the answer you were looking for, our expert team is ready to help you personally. Reach out to us via any of the channels below.
               </p>
               
               <div className="flex flex-col md:flex-row items-center justify-center gap-6">

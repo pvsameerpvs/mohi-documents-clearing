@@ -43,7 +43,7 @@ export default function ContactPage() {
             <span>GET IN TOUCH WITH EXPERTS</span>
           </div>
           <h1 className="text-4xl font-black tracking-tight text-white md:text-5xl lg:text-7xl leading-[1.1] animate-in fade-in slide-in-from-bottom-4 duration-700">
-            Let's Start Your <br />
+            Let&apos;s Start Your <br />
             <span className="text-brand-red uppercase italic">Application</span>
           </h1>
           <p className="mt-8 text-lg text-white/60 max-w-2xl mx-auto font-normal leading-relaxed animate-in fade-in slide-in-from-bottom-6 duration-1000">

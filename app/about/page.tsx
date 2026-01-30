@@ -96,7 +96,7 @@ export default function AboutPage() {
               <span className="text-brand-red">UAE Government Services</span>
             </h1>
             <p className="mt-8 text-lg text-white/70 max-w-2xl font-normal leading-relaxed animate-in fade-in slide-in-from-bottom-6 duration-1000">
-              Mohammad Mohi Uddin Karim Documents Clearing Services is a top-tier PRO agency based in Deira, Dubai. We specialize in navigating the complexities of UAE's legal landscape.
+              Mohammad Mohi Uddin Karim Documents Clearing Services is a top-tier PRO agency based in Deira, Dubai. We specialize in navigating the complexities of UAE&apos;s legal landscape.
             </p>
           </div>
         </div>
@@ -253,7 +253,7 @@ export default function AboutPage() {
                 <span className="text-brand-red uppercase italic">Documentation?</span>
               </h2>
               <p className="text-white/60 text-lg mb-10 leading-relaxed font-normal">
-                Join thousands of satisfied clients who trust us for their legal paperwork in the UAE. Let's get started on your application today.
+                Join thousands of satisfied clients who trust us for their legal paperwork in the UAE. Let&apos;s get started on your application today.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <Button asChild size="lg" className="h-16 px-10 rounded-2xl bg-brand-red hover:bg-red-700 shadow-xl shadow-brand-red/20 text-md font-black group">

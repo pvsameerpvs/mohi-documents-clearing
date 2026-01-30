@@ -33,7 +33,7 @@ export default function TermsPage() {
 
             <h2 className="text-2xl font-black text-charcoal mt-12 mb-4">2. Client Responsibility</h2>
             <p className="text-charcoal/60 leading-relaxed mb-8 font-normal">
-              Clients are responsible for providing accurate and genuine documents as requested for their applications. Any delays or rejections due to forged or incorrect documentation are the client's responsibility.
+              Clients are responsible for providing accurate and genuine documents as requested for their applications. Any delays or rejections due to forged or incorrect documentation are the client&apos;s responsibility.
             </p>
 
             <h2 className="text-2xl font-black text-charcoal mt-12 mb-4">3. Payment Terms</h2>

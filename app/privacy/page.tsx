@@ -23,7 +23,7 @@ export default function PrivacyPage() {
         <div className="mx-auto max-w-3xl px-4">
           <div className="prose prose-slate max-w-none">
             <p className="text-lg text-charcoal/70 leading-relaxed mb-8">
-              At Mohammad Mohi Uddin Karim Documents Clearing Services, we are committed to protecting the privacy and security of our clients' information. This Privacy Policy describes how we collect, use, and handle your information.
+              At Mohammad Mohi Uddin Karim Documents Clearing Services, we are committed to protecting the privacy and security of our clients&apos; information. This Privacy Policy describes how we collect, use, and handle your information.
             </p>
 
             <h2 className="text-2xl font-black text-charcoal mt-12 mb-4">1. Information Collection</h2>
