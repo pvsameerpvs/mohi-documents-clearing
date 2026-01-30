@@ -59,6 +59,7 @@ export function SiteFooter() {
             <div className="flex items-center gap-4">
               {[
                 { Icon: Facebook, href: "https://www.facebook.com/share/1AFuwXiUKr/?mibextid=wwXIfr" },
+                { Icon: Instagram, href: "https://www.instagram.com/muk20_23?igsh=ZjZsMXppaWY1emNx" },
                 { Icon: WhatsAppIcon, href: "https://wa.me/971563315670" },
               ].map((item, i) => (
                 <a 
